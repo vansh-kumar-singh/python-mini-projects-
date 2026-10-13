@@ -8,20 +8,25 @@ A collection of small Python projects built while learning Python.
 | 01 | Expense Tracker | CLI app to add expenses and show total spending |
 | 02 | Number Guessing Game | CLI game of Guessing numbers |
 
-## How to run
-```bash
-python expense_tracker.py
-
 
 # 🎯 Python Mini Projects
 
 A collection of beginner-friendly Python projects to practice basics.
 
 ## 📂 Projects List
+- [x] expense tracker 
 - [x] Number Guessing Game
 
 ---
-### 🎮 1. Number Guessing Game
+### 1. expense tracker
+A simple CLI app which add expenses with respective needs and shows total expense
+
+## How to run
+```bash
+python expense_tracker.py
+
+---
+### 🎮 2.. Number Guessing Game
 
 A simple CLI game where computer picks a random number and user has to guess it.
 
