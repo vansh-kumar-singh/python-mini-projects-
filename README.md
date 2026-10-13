@@ -1,50 +1,23 @@
-# python-mini-projects-
+# 🐍 Python Mini Projects
 
-A collection of small Python projects built while learning Python.
+A collection of 3 beginner-friendly Python projects I built while learning Python.
 
-## Projects
-| # | Project | Description |
-|---|---------|-------------|
-| 01 | Expense Tracker | CLI app to add expenses and show total spending |
-| 02 | Number Guessing Game | CLI game of Guessing numbers |
+### 📁 Projects Included
 
+| No | Project | File Name | Description |
+|----|---------|-----------|-------------|
+| 1 | 🎯 Number Guessing Game | `number-guessing-game.py` | Guess the random number between 1-100 with hints |
+| 2 | 💰 Expense Tracker | `expense-tracker.py` | Add, view and manage daily expenses |
+| 3 | 🔑 Password Generator | `password-generator.py` | Generate strong random passwords |
 
-# 🎯 Python Mini Projects
+### 🚀 How to Run
 
-A collection of beginner-friendly Python projects to practice basics.
-
-## 📂 Projects List
-- [x] expense tracker 
-- [x] Number Guessing Game
-
----
-### 1. expense tracker
-A simple CLI app which add expenses with respective needs and shows total expense
-
-## How to run
-```bash
-python expense_tracker.py
-
----
-### 🎮 2.. Number Guessing Game
-
-A simple CLI game where computer picks a random number and user has to guess it.
-
-#### ✨ Features
-- Random number generation between 1 to 100
-- Hints: Too High / Too Low
-- Score tracking
-- Replay option
-
-#### 🛠️ Tech Stack
-- Python 3
-- `random` module
-
-#### 🚀 How to Run
 ```bash
 # Clone the repo
 git clone https://github.com/vansh-kumar-singh/python-mini-projects-.git
 cd python-mini-projects-
 
-# Run the game
+# Run any project
 python number-guessing-game.py
+python expense-tracker.py
+python password-generator.py
