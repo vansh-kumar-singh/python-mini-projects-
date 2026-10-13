@@ -6,6 +6,7 @@ A collection of small Python projects built while learning Python.
 | # | Project | Description |
 |---|---------|-------------|
 | 01 | Expense Tracker | CLI app to add expenses and show total spending |
+| 02 | Number Guessing Game | CLI game of Guessing numbers |
 
 ## How to run
 ```bash
