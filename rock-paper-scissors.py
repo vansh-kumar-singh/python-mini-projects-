@@ -7,14 +7,20 @@ score1=0
 score2=0
 while True:
 	d=random.randint(1,len(c))
-	if a=='y':
+	if a.lower()=='y':
 		b=int(input("enter your choice\n1.rock\n2.paper\n3.scissors\n"))
-		print('3')
-		time.sleep(1)
-		print('2')
-		time.sleep(1)
-		print('1')
-		if b==1:
+		if b>3:
+			print("enter valid choice(1-3)")
+			continue
+		elif b==1:
+			print('3')
+			time.sleep(0.5)
+			print('2')
+			time.sleep(0.5)
+			print('1')
+			time.sleep(0.5)
+			print("you chose:",c[b-1])
+			print("computer chose:",c[d-1])
 			if d==1:
 				print('tied')
 			elif d==2:
@@ -24,6 +30,14 @@ while True:
 				print('you won')
 				score1+=1
 		elif b==2:
+			print('3')
+			time.sleep(0.5)
+			print('2')
+			time.sleep(0.5)
+			print('1')
+			time.sleep(0.5)
+			print("you chose:",c[b-1])
+			print("computer chose:",c[d-1])	
 			if d==1:
 				print('you won')
 				score1+=1
@@ -33,6 +47,14 @@ while True:
 				print('computer won')
 				score2+=1
 		else:
+			print('3')
+			time.sleep(0.5)
+			print('2')
+			time.sleep(0.5)
+			print('1')
+			time.sleep(0.5)
+			print("you chose:",c[b-1])
+			print("computer chose:",c[d-1])
 			if d==1:
 				print('computer won')
 				score2+=1
