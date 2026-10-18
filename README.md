@@ -10,7 +10,7 @@ A collection of 3 beginner-friendly Python projects I built while learning Pytho
 | 2 | 💰 Expense Tracker | `expense-tracker.py` | Add, view and manage daily expenses |
 | 3 | 🔑 Password Generator | `password-generator.py` | Generate strong random passwords |
 | 4 | rock paper scissors game| `rock-paper-scissors.py`| play a game of rock paper scissors with the computer|
-| 5 | 🎲 dice roller simulator | roll a die and check your luck|
+| 5 | 🎲 dice roller simulator | `dice-roller.py`|roll a die and check your luck|
 
 ### 🚀 How to Run
 
